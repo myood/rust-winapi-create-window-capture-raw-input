@@ -1,3 +1,8 @@
+// Extension of example win32 window from:
+//   https://github.com/pachi/rust_winapi_examples/blob/master/src/bin/02_window.rs
+// with C++ code translated to Rust from MSDN:
+//   https://learn.microsoft.com/en-us/windows/win32/inputdev/using-raw-input
+
 #![cfg(windows)]
 use std::error::Error;
 use std::ptr::null_mut;
