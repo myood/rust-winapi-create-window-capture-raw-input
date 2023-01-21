@@ -1,14 +1,4 @@
 #![cfg(windows)]
-// Let's put this so that it won't open the console
-// #![windows_subsystem = "windows"]
-
-/// Example 2: Simple window that responds to a click event
-///
-/// Clicking on the window shows a message dialog
-/// Example build up from these examples and documents:
-///      https://drywa.me/2017/07/02/simple-win32-window-with-rust/
-///      https://gist.github.com/TheSatoshiChiba/6dd94713669efd1636efe4ee026b67af
-///      http://www.winprog.org/tutorial/
 use std::error::Error;
 use std::ptr::null_mut;
 use winapi::shared::minwindef::*;
